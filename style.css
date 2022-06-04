@@ -1,0 +1,55 @@
+body 
+{
+	background-image: url('2.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;  
+	background-size: cover;
+	box-sizing: content-box;
+}
+#headding 
+{
+	color: white;
+}
+a.first 
+{
+	color: Red;
+	text-align: center;
+	text-decoration: none;
+	text-decoration: none;
+}
+div 
+{
+	box-sizing: content-box;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: fixed;
+ 	bottom: ;
+	background: rgba(0, 0, 0, 0.5);
+	color: #f1f1f1;
+	width: 100%;
+}
+
+	@-webkit-keyframes uparrow {
+  0% { -webkit-transform: translateY(0); opacity: 0.4 }
+  100% { -webkit-transform: translateY(-0.4em); opacity: 0.9 }
+}
+.arrow 
+{
+  border-color:transparent;
+  border-style:solid;
+  border-width:0 2em;
+  display:block;
+  margin:3em auto;
+  opacity:0.4;
+  text-indent:-9999px;
+  transform-origin: 50% 50%;
+  width:0;
+}
+.up 
+{
+  -webkit-animation: uparrow 0.3s infinite alternate ease-in-out;
+  border-bottom:2em solid #00b6f1;
+}
+
+
