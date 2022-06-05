@@ -15,7 +15,6 @@ a.first
 	color: Red;
 	text-align: center;
 	text-decoration: none;
-	text-decoration: none;
 }
 div 
 {
@@ -24,7 +23,6 @@ div
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: fixed;
- 	bottom: ;
 	background: rgba(0, 0, 0, 0.5);
 	color: #f1f1f1;
 	width: 100%;
@@ -32,7 +30,7 @@ div
 
 	@-webkit-keyframes uparrow {
   0% { -webkit-transform: translateY(0); opacity: 0.4 }
-  100% { -webkit-transform: translateY(-0.4em); opacity: 0.9 }
+  100% { -webkit-transform: translateY(-0.4em); }
 }
 .arrow 
 {
@@ -41,7 +39,6 @@ div
   border-width:0 2em;
   display:block;
   margin:3em auto;
-  opacity:0.4;
   text-indent:-9999px;
   transform-origin: 50% 50%;
   width:0;
